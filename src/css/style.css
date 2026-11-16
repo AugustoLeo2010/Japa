@@ -1,0 +1,35 @@
+@import url("global.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+      background-color: var(--color-background);
+      font-family: var(--font-body);
+}
+
+.menu{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: var(--color-menu);
+   padding: 20px 8%;
+   color: var(--color-text-padrao);
+}
+
+.links{
+      display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links h2:hover{
+    color: var(--color-text-destaque)
+}
+
+
+
+

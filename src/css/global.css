@@ -1,0 +1,16 @@
+:root{
+    --color-border:#B69A73;
+    --color-background:#EDE4D6;
+    --color-menu: #252525;
+    --color-text-destaque:#9E292F;
+    --color-text-padrao: white;
+
+    --font-size-h1: 45px;
+    --font-size-h2: 30px;
+    --font-size-h3: 25px;
+    --font-size-h4: 20px;
+    --font-size-h5: 15px;
+
+    --font-title: "Cormorant Garamond", sans-serif;
+    --font-body: "Montserrat", sans-serif;
+}
