@@ -18,16 +18,18 @@ body{
    background-color: var(--color-menu);
    padding: 20px 8%;
    color: var(--color-text-padrao);
+   border: 2px solid var(--color-border);
 }
 
 .links{
       display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 125px;
 }
 
 .links h2:hover{
-    color: var(--color-text-destaque)
+    color: var(--color-text-destaque);
+    transition: all 0.3s ease;
 }
 
 
